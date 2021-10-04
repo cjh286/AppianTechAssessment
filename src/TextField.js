@@ -2,9 +2,6 @@ import React, { Component } from "react";
 import "./styles/TextField.css";
 
 class TextField extends Component {
-
-  
-
   render() {
     return (
       <div className="inputWrapper">
