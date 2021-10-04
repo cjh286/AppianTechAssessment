@@ -52,9 +52,9 @@ const App = () => {
           })
           ?.map((item) => (
             <WeatherCard
-              date={item.date}
-              weather={item.weather}
-              location={item.town}
+              date={item?.date}
+              weather={item?.weather}
+              location={item?.town}
             />
           ))}
       </div>
