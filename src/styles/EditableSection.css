@@ -1,5 +1,7 @@
+/* added flex wrap so the cards display better on screen */
 .editable-section {
   display: flex;
+  flex-wrap: wrap;
   border-radius: 15px;
   background-color: skyblue;
 }
